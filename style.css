@@ -1,0 +1,107 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  outline-style: none;
+}
+
+.form1 label{
+  display: block;
+  font-family: fantasy, cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form1 .boutton{
+  display: block;
+  background-color:#3798AE;
+  color: white;
+  padding: 5px;
+}
+.form1{
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+}
+.form1 div{
+  text-align: center;
+}
+.form1 input[type=email]{
+  width: 100%;
+  height: 30px;
+}
+.form1 input[type=text]{
+  width: 49%;
+  height: 30px;
+}
+.form1 select{
+  width: 100%;
+  height: 30px;
+}
+.form1 textarea{
+  width: 100%;
+  height: 80px;
+}
+.form1 span{
+  color: red;
+}
+.form1 input[type=email]:focus,.form1 input[type=text]:focus,
+.form1 select:focus,.form1 textarea:focus{
+  box-shadow: 0px 0px 3px 3px #3798ae;
+}
+/*--------------------------------------------*/
+.form2{
+  width: 40%;
+}
+.form2 label{
+  float: left;
+  font-family: fantasy, cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form2 span{
+  color:red;
+}
+.form2 .titre{
+  text-align: left;
+  border-bottom: 3px solid #DCDCDC;
+}
+.form2 .boutton{
+  display: block;
+  background-color:#FF7F00;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.form2 textarea{
+  width: 80%;
+  height: 80px;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+.form2 input[type=text]{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+.form2 input[type=email]{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+.form2 input[type=tel]{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 20px
+}
+.form2 select{
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 18px;
+}
+.form2 .boutton{
+  margin-left: 105px;
+}
