@@ -97,11 +97,120 @@
   margin-left: 20px
 }
 .form2 select{
-  width: 60%;
+  width: 40%;
   height: 30px;
   border-radius: 5px;
   margin-left: 18px;
 }
 .form2 .boutton{
   margin-left: 105px;
+}
+.form2 div{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ /*------ fin du second formulaire-------*/
+.form3{
+  width: 40%;
+}
+.form3 fieldset{
+  border-radius: 5px;
+  background-color: #FFF3F3;
+  color: #F3007C;
+  font-weight: bold;
+  border:2px solid #F9C8CA;
+}
+.form3 input{
+  background-color: #FFF3F3;
+  border-radius: 5px;
+  border: 2px solid #F9C8CA;
+}
+.form3 .border-radius{
+  border: 1px solid #F9C8CA;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
+  background-color: #FFF3F3;
+}
+.form3 div{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.form3 span{
+  color: red;
+}
+.form3 .subject{
+  background-color:#FFF3F3;
+  border-radius: 5px;
+  color:#F3007C;
+  width: 173px;
+  border: 2px solid #F9C8CA;
+}
+.form3 .boutton{
+  background-color: #F3007C;
+  border-radius: 5px;
+  color:white;
+}
+.form3 label{
+  width:135px;
+  display: inline-block;
+}
+.form3 .fieldset2{
+  margin-top: 10px;
+}
+.form3 .fieldset2 label{
+  float: left;
+}
+.form3 .fieldset2 input{
+  margin-left: 133px;
+  padding: 5px;
+  border: none;
+}
+.form3 .fieldset2 textarea{
+  height: 80px;
+}
+/*----fin du troisieme formulaire------*/
+.form4{
+  width: 40%;
+  background-color: #495A70;
+  color: white;
+  border: 5px solid #7C9AC0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form4 .dashed{
+  border: none;
+  border-bottom: 1px dashed #7C9AC0;
+}
+.form4 .boutton{
+  background-color: #566B86;
+  color: #8799B1;
+  border: none;
+  border-radius: 5px;
+  margin-left: 161px;
+  padding: 5px;
+}
+.form4 div {
+  display: block;
+}
+.form4 input{
+  background-color:#495A70;
+}
+.form4 label{
+  display: inline-block;
+  width: 135px;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*------fin du quatrieme-----*/
+main {
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid #F3F3F3;
+}
+header{
+  background-color: #0084AE;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
 }
